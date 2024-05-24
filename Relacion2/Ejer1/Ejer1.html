@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacar el nombre del mes dado el número</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" href="../img/Ejer1.jpg"> <!-- Asegúrate de que la ruta sea correcta -->
+    <link rel="stylesheet" href="styles.css" id="mainStylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Nombre del Mes</h1>
+        
+        <form id="Meses"  >
+            <div class="form-group">
+                <label for="ElegirMes">Seleccione un mes:</label>
+                <select class="form-control" id="ElegirMes" name="ElegirMes">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Mostrar Nombre del Mes</button>
+        </form>
+        
+        <div id="resultado" class="text-center">
+            <p id="NomMes"></p>
+        </div>
+
+        <div class="text-center mt-3">
+            <button class="btn btn-dark mr-2" id="darkModeBtn">Modo Oscuro</button>
+            <button class="btn btn-primary" id="lightModeBtn">Modo Light</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

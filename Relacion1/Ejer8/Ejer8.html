@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cálculo del Máximo Común Divisor (MCD)</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" href="../img/Ejer8.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo del Máximo Común Divisor (MCD)</h1>
+        
+        <form id="MCD"  >
+            <div class="form-group">
+                <label for="num1">Primer número entero positivo:</label>
+                <input type="number" class="form-control" id="num1" name="num1" min="1" required>
+            </div>
+            <div class="form-group">
+                <label for="num2">Segundo número entero positivo:</label>
+                <input type="number" class="form-control" id="num2" name="num2" min="1" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Calcular MCD</button>
+        </form>
+        
+        <div id="resultado">
+            <h2>Resultado:</h2>
+            <p id="ResultadoMCD"></p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

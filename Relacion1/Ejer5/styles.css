@@ -1,0 +1,22 @@
+body {
+    background-color: #007bff;
+}
+.container {
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+h1 {
+    color: #007bff;
+    text-align: center;
+}
+#resultado {
+    margin-top: 20px;
+}
+#resultado h2 {
+    color: #17a2b8;
+}
+#resultado p {
+    font-size: 18px;
+}

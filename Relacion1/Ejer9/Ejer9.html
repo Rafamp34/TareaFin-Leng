@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sacar el nombre del mes dado el numero</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" href="../img/Ejer9.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nombre del Mes</h1>
+        
+        <form id="Meses"  >
+            <div class="form-group">
+                <label for="ElegirMes">Seleccione un mes:</label>
+                <select class="form-control" id="ElegirMes" name="ElegirMes">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="9">8</option>
+                    <option value="10">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Mostrar Nombre del Mes</button>
+        </form>
+        
+        <div id="resultado" class="text-center">
+            <p id="NomMes"></p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
