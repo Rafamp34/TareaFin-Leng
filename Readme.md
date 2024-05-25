@@ -58,7 +58,7 @@ Este proyecto contiene una serie de ejercicios de programación, cada uno con su
 
 **Archivo:** `Ejer9/Ejer9.html`
 
-## Modo Oscuro y Claro
+## Sacar el nombre del mes dado el número con Modo Oscuro y Claro
 **Descripción:** Alterna entre modo oscuro y claro en la aplicación.
 
 **Archivo:** `Relacion2/Ejer1/Ejer1.html`
